@@ -1,0 +1,291 @@
+POST http://localhost:3000/api/v1/receipts HTTP/1.1
+content-type: application/json
+
+[
+    {
+        "receiptNumber": "83 / 367)}",
+        "merchant": {
+            "name": "Rowe, Conn and Murazik",
+            "companyID": "123456-8",
+            "branch": {
+                "name": "Ondricka, Cruickshank and Smitham",
+                "subName": "niches",
+                "email": "Keeley_Larson@yahoo.com",
+                "phone": "(746) 799-0273",
+                "address": {
+                    "streetAddress": "8520 Hobart Light",
+                    "city": "Ortizborough",
+                    "zipCode": "59740",
+                    "country": "Jamaica"
+                }
+            }
+        },
+        "freeText": "Adipisci laborum ea non facere voluptate omnis. Quas sapiente ducimus rerum doloribus dolorem corrupti. Dolores ratione ut et fugiat eos iusto assumenda accusamus.",
+        "payments": [
+            {
+                "type": "CARD",
+                "amount": 217008,
+                "attributes": {
+                    "cardType": "PaymentCard",
+                    "maskedPAN": "411111******1111",
+                    "timeStamp": "2021-04-01T20:58:55.433Z",
+                    "terminalId": "1836090",
+                    "unixTimeStamp": 1618919013,
+                    "referenceNumber": "3848516158403",
+                    "authorizationCode": "0000000000000000",
+                    "transactionId": "7040967413"
+                },
+                "customAttributes": [
+                    {
+                        "infomediaries": "vertical"
+                    },
+                    {
+                        "vortals": "extensible"
+                    },
+                    {
+                        "relationships": "synergistic"
+                    },
+                    {
+                        "web services": "strategic"
+                    }
+                ]
+            }
+        ],
+        "customAttributes": [
+            {
+                "blockchains": "collaborative"
+            },
+            {
+                "mindshare": "turn-key"
+            }
+        ],
+        "attachments": [],
+        "currencyISOCode": "EUR",
+        "receiptUnixTimeStamp": 1618919013,
+        "products": [
+            {
+                "EANCode": "6150911336468",
+                "productId": "73267577",
+                "unitPriceIncVATDecimal": "0",
+                "totalAmountExcVAT": 0,
+                "quantity": "0",
+                "name": "Incredible Rubber Table",
+                "freeText": "Amet culpa aut rem inventore quibusdam ut est earum. Laudantium et repellendus reprehenderit quae qui eaque. Assumenda rerum quia sint ab non. Unde ipsum accusamus. Rerum soluta tempora vitae deleniti corporis voluptatem.",
+                "customAttributes": [
+                    {
+                        "models": "B2C"
+                    },
+                    {
+                        "web-readiness": "best-of-breed"
+                    },
+                    {
+                        "vortals": "out-of-the-box"
+                    },
+                    {
+                        "deliverables": "holistic"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 4147,
+                "totalAmountIncVAT": 0,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 0,
+                        "totalAmountExcVAT": 0,
+                        "totalAmountIncVAT": 0
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "7482913771362",
+                "productId": "15901795",
+                "unitPriceIncVATDecimal": "59.75",
+                "totalAmountExcVAT": 5138,
+                "quantity": "5",
+                "name": "Practical Fresh Fish",
+                "freeText": "Ad ipsum ipsam adipisci qui nemo. In dolorum ex culpa dolores fuga iusto iure necessitatibus. Architecto reprehenderit rem repellendus unde sed. Quasi natus similique. Adipisci id ea asperiores et est.",
+                "customAttributes": [
+                    {
+                        "schemas": "open-source"
+                    },
+                    {
+                        "paradigms": "mission-critical"
+                    },
+                    {
+                        "users": "innovative"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 1195,
+                "totalAmountIncVAT": 5975,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 836,
+                        "totalAmountExcVAT": 5135,
+                        "totalAmountIncVAT": 5975
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4570229853954",
+                "productId": "71646933",
+                "unitPriceIncVATDecimal": "166.4",
+                "totalAmountExcVAT": 14310,
+                "quantity": "2",
+                "name": "Fantastic Frozen Computer",
+                "freeText": "Qui sint molestiae explicabo autem architecto dolor deserunt corporis corporis. Ad recusandae expedita. Voluptatem qui id perspiciatis saepe corrupti. Natus et est dicta repellat at optio.",
+                "customAttributes": [
+                    {
+                        "eyeballs": "magnetic"
+                    },
+                    {
+                        "web-readiness": "visionary"
+                    },
+                    {
+                        "vortals": "B2B"
+                    },
+                    {
+                        "bandwidth": "cutting-edge"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 8320,
+                "totalAmountIncVAT": 16640,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 2329,
+                        "totalAmountExcVAT": 14310,
+                        "totalAmountIncVAT": 16640
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "6841336198733",
+                "productId": "69751798",
+                "unitPriceIncVATDecimal": "573.8",
+                "totalAmountExcVAT": 49346,
+                "quantity": "10",
+                "name": "Small Metal Pizza",
+                "freeText": "Earum in non dicta. Recusandae dolorem blanditiis blanditiis quia ea. Consectetur voluptatem sed eos ipsa ipsam pariatur ipsam consequatur ipsum. Molestiae sint corrupti cupiditate voluptas qui ipsam cum delectus iure. Inventore cupiditate illo aliquid ea enim. Perferendis quo ratione ipsum omnis et voluptas est.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 5738,
+                "totalAmountIncVAT": 57380,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 8033,
+                        "totalAmountExcVAT": 49340,
+                        "totalAmountIncVAT": 57380
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "2426296752992",
+                "productId": "11905676",
+                "unitPriceIncVATDecimal": "71.55",
+                "totalAmountExcVAT": 6153,
+                "quantity": "3",
+                "name": "Fantastic Frozen Soap",
+                "freeText": "Beatae laborum dignissimos suscipit possimus voluptatem rem unde ut provident. Rem consequatur itaque voluptate eos perferendis praesentium architecto. Deleniti voluptate voluptate rem. Et dignissimos nobis. Molestiae quam in vero sunt est. Accusantium nulla excepturi.",
+                "customAttributes": [
+                    {
+                        "paradigms": "strategic"
+                    },
+                    {
+                        "experiences": "wireless"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 2385,
+                "totalAmountIncVAT": 7155,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1001,
+                        "totalAmountExcVAT": 6153,
+                        "totalAmountIncVAT": 7155
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4519710780931",
+                "productId": "97226506",
+                "unitPriceIncVATDecimal": "597.03",
+                "totalAmountExcVAT": 51344,
+                "quantity": "7",
+                "name": "Rustic Frozen Bike",
+                "freeText": "Quae voluptates dolor veniam quo exercitationem recusandae repudiandae harum neque. Accusamus nihil ipsam iure ut magni ut tenetur rerum. Rerum architecto porro in labore nulla. Adipisci debitis et omnis ut.",
+                "customAttributes": [
+                    {
+                        "convergence": "value-added"
+                    },
+                    {
+                        "portals": "plug-and-play"
+                    },
+                    {
+                        "communities": "mission-critical"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 8529,
+                "totalAmountIncVAT": 59703,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 8358,
+                        "totalAmountExcVAT": 51338,
+                        "totalAmountIncVAT": 59703
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "8715485853101",
+                "productId": "71950097",
+                "unitPriceIncVATDecimal": "701.55",
+                "totalAmountExcVAT": 60333,
+                "quantity": "9",
+                "name": "Fantastic Metal Computer",
+                "freeText": "In et voluptatem aspernatur in fugit ex excepturi. Reprehenderit eligendi repudiandae et vel.",
+                "customAttributes": [
+                    {
+                        "deliverables": "next-generation"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 7795,
+                "totalAmountIncVAT": 70155,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 9821,
+                        "totalAmountExcVAT": 60327,
+                        "totalAmountIncVAT": 70155
+                    }
+                ],
+                "discounts": []
+            }
+        ],
+        "vats": [
+            {
+                "VATRate": "14",
+                "totalVATAmount": 30378,
+                "totalAmountExcVAT": 186603,
+                "totalAmountIncVAT": 217008
+            }
+        ],
+        "receiptTimeStamp": "2021-04-01T20:58:55.433Z",
+        "totalPriceExcVAT": 186603,
+        "totalPriceIncVAT": 217008,
+        "totalVATAmount": 0
+    }
+]

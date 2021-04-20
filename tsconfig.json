@@ -1,0 +1,20 @@
+{
+    "include": [
+        "./src/*.ts",
+        "./src/**/*.ts"
+    ],
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "preserveConstEnums": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "baseUrl": "."
+    }
+}

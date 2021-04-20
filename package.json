@@ -1,0 +1,30 @@
+{
+  "name": "demoHero",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "receipt-api:dev": "ts-node ./src/receipt-api",
+    "analytics:dev": "ts-node ./src/analytics",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReceiptHero/demoHero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReceiptHero/demoHero/issues"
+  },
+  "homepage": "https://github.com/ReceiptHero/demoHero#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "ts-standard": "^10.0.0"
+  }
+}

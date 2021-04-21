@@ -2,16 +2,14 @@
   "name": "demoHero",
   "version": "1.0.0",
   "description": "## Description",
-  "main": "index.js",
+  "main": "./src/app.ts",
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
   "scripts": {
-    "receipt-api:dev": "ts-node-dev --respawn --transpile-only ./src/receipt-api",
-    "analytics:dev": "ts-node-dev --respawn --transpile-only ./src/analytics",
-    "dev": "concurrently \"npm run receipt-api:dev\" \"npm run analytics:dev\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ./src/app.ts",
+    "dev": "ENVIRONMENT=development ts-node-dev --respawn --transpile-only ./src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -26,7 +24,6 @@
   "homepage": "https://github.com/ReceiptHero/demoHero#readme",
   "devDependencies": {
     "@types/express": "^4.17.11",
-    "concurrently": "^6.0.2",
     "ts-node-dev": "^1.1.6",
     "ts-standard": "^10.0.0"
   },

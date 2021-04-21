@@ -1,92 +1,490 @@
+
+POST http://localhost:3000/api/v1/receipts HTTP/1.1
+content-type: application/json
+
+{
+    "receiptNumber": "39 / 338)}",
+    "merchant": {
+        "name": "Rohan, Bailey and Cruickshank",
+        "companyID": "123456-8",
+        "branch": {
+            "name": "Reichel - Renner",
+            "subName": "vortals",
+            "email": "Sincere.Zboncak75@hotmail.com",
+            "phone": "(855) 452-2276",
+            "address": {
+                "streetAddress": "11550 Ledner Corner",
+                "city": "Danville",
+                "zipCode": "90542",
+                "country": "Mayotte"
+            }
+        }
+    },
+    "freeText": "Temporibus numquam facilis aut. In expedita aut aut ea repellat et odio rerum. Tempore sunt et inventore et. Possimus cumque voluptatum rem itaque similique. Omnis consequatur dolor ex veritatis.",
+    "payments": [
+        {
+            "type": "CARD",
+            "amount": 196211,
+            "attributes": {
+                "cardType": "PaymentCard",
+                "maskedPAN": "411111******1111",
+                "timeStamp": "2021-04-04T04:19:02.376Z",
+                "terminalId": "709715",
+                "unixTimeStamp": 1618917446,
+                "referenceNumber": "4372819470930",
+                "authorizationCode": "0000000000000000",
+                "transactionId": "6386438641"
+            },
+            "customAttributes": [
+                {
+                    "convergence": "magnetic"
+                },
+                {
+                    "convergence": "synergistic"
+                }
+            ]
+        }
+    ],
+    "customAttributes": [
+        {
+            "platforms": "B2C"
+        }
+    ],
+    "attachments": [],
+    "currencyISOCode": "EUR",
+    "receiptUnixTimeStamp": 1618917446,
+    "products": [
+        {
+            "EANCode": "5322553128007",
+            "productId": "34061948",
+            "unitPriceIncVATDecimal": "0",
+            "totalAmountExcVAT": 0,
+            "quantity": "0",
+            "name": "Sleek Fresh Soap",
+            "freeText": "Magnam expedita omnis harum. Magni eos dolore consequuntur placeat praesentium corporis et ea aut. Incidunt iure eum in unde nesciunt recusandae est ut. Voluptatem cumque voluptates doloremque sunt nisi dolor provident est quia.",
+            "customAttributes": [
+                {
+                    "communities": "real-time"
+                },
+                {
+                    "bandwidth": "plug-and-play"
+                },
+                {
+                    "niches": "end-to-end"
+                },
+                {
+                    "e-markets": "enterprise"
+                }
+            ],
+            "quantityCode": "",
+            "unitPriceIncVAT": 6876,
+            "totalAmountIncVAT": 0,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 0,
+                    "totalAmountExcVAT": 0,
+                    "totalAmountIncVAT": 0
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "3933657544183",
+            "productId": "78082325",
+            "unitPriceIncVATDecimal": "28.6",
+            "totalAmountExcVAT": 2459,
+            "quantity": "2",
+            "name": "Sleek Cotton Chips",
+            "freeText": "Consectetur distinctio qui corporis autem eveniet tempore dolor. Expedita et nesciunt blanditiis libero fugit enim autem ut. Omnis nisi omnis non recusandae aut consequatur. Dolore similique maxime. Qui ipsum nihil repudiandae impedit nihil amet.",
+            "customAttributes": [
+                {
+                    "ROI": "web-enabled"
+                },
+                {
+                    "solutions": "24/7"
+                },
+                {
+                    "experiences": "viral"
+                }
+            ],
+            "quantityCode": "",
+            "unitPriceIncVAT": 1430,
+            "totalAmountIncVAT": 2860,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 400,
+                    "totalAmountExcVAT": 2458,
+                    "totalAmountIncVAT": 2860
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "2822425217947",
+            "productId": "44644901",
+            "unitPriceIncVATDecimal": "190.4",
+            "totalAmountExcVAT": 16374,
+            "quantity": "10",
+            "name": "Rustic Rubber Ball",
+            "freeText": "Ea laboriosam quasi ut.",
+            "customAttributes": [],
+            "quantityCode": "",
+            "unitPriceIncVAT": 1904,
+            "totalAmountIncVAT": 19040,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 2665,
+                    "totalAmountExcVAT": 16370,
+                    "totalAmountIncVAT": 19040
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "1587356676275",
+            "productId": "8925004",
+            "unitPriceIncVATDecimal": "595.9",
+            "totalAmountExcVAT": 51247,
+            "quantity": "10",
+            "name": "Practical Concrete Bacon",
+            "freeText": "Qui officia ut cumque aut sequi similique quia similique. Vel eum sint aut natus enim repudiandae. Voluptatem cumque nihil officiis iste.",
+            "customAttributes": [],
+            "quantityCode": "",
+            "unitPriceIncVAT": 5959,
+            "totalAmountIncVAT": 59590,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 8342,
+                    "totalAmountExcVAT": 51240,
+                    "totalAmountIncVAT": 59590
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "7342746478111",
+            "productId": "65656790",
+            "unitPriceIncVATDecimal": "129.92",
+            "totalAmountExcVAT": 11173,
+            "quantity": "4",
+            "name": "Small Frozen Table",
+            "freeText": "Quaerat dolor et molestiae aut doloremque sunt sint dignissimos. Ipsa voluptates eos iusto ipsa quae libero similique. Exercitationem eum quis ut aperiam dolores ab eveniet. Voluptatem quas magnam facere nihil enim molestiae dignissimos est.",
+            "customAttributes": [
+                {
+                    "applications": "transparent"
+                },
+                {
+                    "platforms": "best-of-breed"
+                },
+                {
+                    "models": "open-source"
+                }
+            ],
+            "quantityCode": "",
+            "unitPriceIncVAT": 3248,
+            "totalAmountIncVAT": 12992,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 1818,
+                    "totalAmountExcVAT": 11172,
+                    "totalAmountIncVAT": 12992
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "4777032916005",
+            "productId": "39583834",
+            "unitPriceIncVATDecimal": "289.44",
+            "totalAmountExcVAT": 24891,
+            "quantity": "3",
+            "name": "Handmade Soft Car",
+            "freeText": "Sunt dolor perspiciatis enim vero. Consequuntur modi sit optio. Sit dignissimos omnis nemo et accusantium aut. Quo ut voluptas.",
+            "customAttributes": [
+                {
+                    "communities": "leading-edge"
+                }
+            ],
+            "quantityCode": "",
+            "unitPriceIncVAT": 9648,
+            "totalAmountIncVAT": 28944,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 4052,
+                    "totalAmountExcVAT": 24891,
+                    "totalAmountIncVAT": 28944
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "1866994739109",
+            "productId": "79250182",
+            "unitPriceIncVATDecimal": "114.87",
+            "totalAmountExcVAT": 9878,
+            "quantity": "3",
+            "name": "Small Metal Fish",
+            "freeText": "Fugit iure commodi saepe et. Occaecati quam velit cum corrupti. Error repellendus distinctio modi enim aspernatur libero velit error ratione. Ratione et aut perspiciatis voluptas nisi doloremque rerum.",
+            "customAttributes": [],
+            "quantityCode": "",
+            "unitPriceIncVAT": 3829,
+            "totalAmountIncVAT": 11487,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 1608,
+                    "totalAmountExcVAT": 9876,
+                    "totalAmountIncVAT": 11487
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "5857982037922",
+            "productId": "73799540",
+            "unitPriceIncVATDecimal": "0",
+            "totalAmountExcVAT": 0,
+            "quantity": "0",
+            "name": "Refined Concrete Table",
+            "freeText": "Odit numquam aut quaerat aut officiis et nisi aperiam. Adipisci porro dolores sit quia iste esse natus eos. Pariatur veniam labore cumque.",
+            "customAttributes": [
+                {
+                    "functionalities": "compelling"
+                },
+                {
+                    "bandwidth": "enterprise"
+                }
+            ],
+            "quantityCode": "",
+            "unitPriceIncVAT": 7011,
+            "totalAmountIncVAT": 0,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 0,
+                    "totalAmountExcVAT": 0,
+                    "totalAmountIncVAT": 0
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "7880189120821",
+            "productId": "50854473",
+            "unitPriceIncVATDecimal": "261.9",
+            "totalAmountExcVAT": 22523,
+            "quantity": "5",
+            "name": "Intelligent Cotton Ball",
+            "freeText": "Omnis consequatur ut iure aut sit nam. Nobis enim ut maxime. Error vero ab dolor iste nihil magnam.",
+            "customAttributes": [
+                {
+                    "blockchains": "holistic"
+                },
+                {
+                    "applications": "dot-com"
+                },
+                {
+                    "users": "rich"
+                },
+                {
+                    "niches": "synergistic"
+                }
+            ],
+            "quantityCode": "",
+            "unitPriceIncVAT": 5238,
+            "totalAmountIncVAT": 26190,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 3666,
+                    "totalAmountExcVAT": 22520,
+                    "totalAmountIncVAT": 26190
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "4197882943114",
+            "productId": "61754493",
+            "unitPriceIncVATDecimal": "248.64",
+            "totalAmountExcVAT": 21383,
+            "quantity": "8",
+            "name": "Rustic Wooden Hat",
+            "freeText": "Placeat nesciunt aut et molestiae laboriosam et ut at. Aut blanditiis dolores quae. Sit tempora inventore dolorem consequuntur a. Est et debitis minus quam nulla.",
+            "customAttributes": [
+                {
+                    "blockchains": "virtual"
+                },
+                {
+                    "portals": "killer"
+                },
+                {
+                    "functionalities": "compelling"
+                },
+                {
+                    "solutions": "frictionless"
+                }
+            ],
+            "quantityCode": "",
+            "unitPriceIncVAT": 3108,
+            "totalAmountIncVAT": 24864,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 3480,
+                    "totalAmountExcVAT": 21376,
+                    "totalAmountIncVAT": 24864
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "5247332583503",
+            "productId": "9954583",
+            "unitPriceIncVATDecimal": "99.78",
+            "totalAmountExcVAT": 8581,
+            "quantity": "1",
+            "name": "Awesome Plastic Salad",
+            "freeText": "Natus sequi ut inventore dignissimos culpa architecto. Molestiae inventore adipisci voluptatem iure omnis blanditiis laudantium vitae itaque. Corrupti impedit impedit dolorem perferendis dolores fuga eius. Dolores ut fuga sit quod blanditiis sit eum.",
+            "customAttributes": [],
+            "quantityCode": "",
+            "unitPriceIncVAT": 9978,
+            "totalAmountIncVAT": 9978,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 1396,
+                    "totalAmountExcVAT": 8581,
+                    "totalAmountIncVAT": 9978
+                }
+            ],
+            "discounts": []
+        },
+        {
+            "EANCode": "9602748106799",
+            "productId": "13339622",
+            "unitPriceIncVATDecimal": "2.66",
+            "totalAmountExcVAT": 228,
+            "quantity": "2",
+            "name": "Practical Wooden Fish",
+            "freeText": "Consequuntur dolores similique doloribus eum reiciendis. Dicta nostrum corrupti provident quisquam quisquam animi. Quas quam aut sit dolor. Ut cum expedita qui consequatur dolorem et quia voluptatem voluptatum. Veritatis adipisci necessitatibus.",
+            "customAttributes": [],
+            "quantityCode": "",
+            "unitPriceIncVAT": 133,
+            "totalAmountIncVAT": 266,
+            "vats": [
+                {
+                    "VATRate": "14",
+                    "VATAmount": 37,
+                    "totalAmountExcVAT": 228,
+                    "totalAmountIncVAT": 266
+                }
+            ],
+            "discounts": []
+        }
+    ],
+    "vats": [
+        {
+            "VATRate": "14",
+            "totalVATAmount": 27464,
+            "totalAmountExcVAT": 168712,
+            "totalAmountIncVAT": 196211
+        }
+    ],
+    "receiptTimeStamp": "2021-04-04T04:19:02.376Z",
+    "totalPriceExcVAT": 168712,
+    "totalPriceIncVAT": 196211,
+    "totalVATAmount": 0
+}
+
+###
+
 POST http://localhost:3000/api/v1/receipts HTTP/1.1
 content-type: application/json
 
 [
     {
-        "receiptNumber": "83 / 367)}",
+        "receiptNumber": "39 / 338)}",
         "merchant": {
-            "name": "Rowe, Conn and Murazik",
+            "name": "Rohan, Bailey and Cruickshank",
             "companyID": "123456-8",
             "branch": {
-                "name": "Ondricka, Cruickshank and Smitham",
-                "subName": "niches",
-                "email": "Keeley_Larson@yahoo.com",
-                "phone": "(746) 799-0273",
+                "name": "Reichel - Renner",
+                "subName": "vortals",
+                "email": "Sincere.Zboncak75@hotmail.com",
+                "phone": "(855) 452-2276",
                 "address": {
-                    "streetAddress": "8520 Hobart Light",
-                    "city": "Ortizborough",
-                    "zipCode": "59740",
-                    "country": "Jamaica"
+                    "streetAddress": "11550 Ledner Corner",
+                    "city": "Danville",
+                    "zipCode": "90542",
+                    "country": "Mayotte"
                 }
             }
         },
-        "freeText": "Adipisci laborum ea non facere voluptate omnis. Quas sapiente ducimus rerum doloribus dolorem corrupti. Dolores ratione ut et fugiat eos iusto assumenda accusamus.",
+        "freeText": "Temporibus numquam facilis aut. In expedita aut aut ea repellat et odio rerum. Tempore sunt et inventore et. Possimus cumque voluptatum rem itaque similique. Omnis consequatur dolor ex veritatis.",
         "payments": [
             {
                 "type": "CARD",
-                "amount": 217008,
+                "amount": 196211,
                 "attributes": {
                     "cardType": "PaymentCard",
                     "maskedPAN": "411111******1111",
-                    "timeStamp": "2021-04-01T20:58:55.433Z",
-                    "terminalId": "1836090",
-                    "unixTimeStamp": 1618919013,
-                    "referenceNumber": "3848516158403",
+                    "timeStamp": "2021-04-04T04:19:02.376Z",
+                    "terminalId": "709715",
+                    "unixTimeStamp": 1618917446,
+                    "referenceNumber": "4372819470930",
                     "authorizationCode": "0000000000000000",
-                    "transactionId": "7040967413"
+                    "transactionId": "6386438641"
                 },
                 "customAttributes": [
                     {
-                        "infomediaries": "vertical"
+                        "convergence": "magnetic"
                     },
                     {
-                        "vortals": "extensible"
-                    },
-                    {
-                        "relationships": "synergistic"
-                    },
-                    {
-                        "web services": "strategic"
+                        "convergence": "synergistic"
                     }
                 ]
             }
         ],
         "customAttributes": [
             {
-                "blockchains": "collaborative"
-            },
-            {
-                "mindshare": "turn-key"
+                "platforms": "B2C"
             }
         ],
         "attachments": [],
         "currencyISOCode": "EUR",
-        "receiptUnixTimeStamp": 1618919013,
+        "receiptUnixTimeStamp": 1618917446,
         "products": [
             {
-                "EANCode": "6150911336468",
-                "productId": "73267577",
+                "EANCode": "5322553128007",
+                "productId": "34061948",
                 "unitPriceIncVATDecimal": "0",
                 "totalAmountExcVAT": 0,
                 "quantity": "0",
-                "name": "Incredible Rubber Table",
-                "freeText": "Amet culpa aut rem inventore quibusdam ut est earum. Laudantium et repellendus reprehenderit quae qui eaque. Assumenda rerum quia sint ab non. Unde ipsum accusamus. Rerum soluta tempora vitae deleniti corporis voluptatem.",
+                "name": "Sleek Fresh Soap",
+                "freeText": "Magnam expedita omnis harum. Magni eos dolore consequuntur placeat praesentium corporis et ea aut. Incidunt iure eum in unde nesciunt recusandae est ut. Voluptatem cumque voluptates doloremque sunt nisi dolor provident est quia.",
                 "customAttributes": [
                     {
-                        "models": "B2C"
+                        "communities": "real-time"
                     },
                     {
-                        "web-readiness": "best-of-breed"
+                        "bandwidth": "plug-and-play"
                     },
                     {
-                        "vortals": "out-of-the-box"
+                        "niches": "end-to-end"
                     },
                     {
-                        "deliverables": "holistic"
+                        "e-markets": "enterprise"
                     }
                 ],
                 "quantityCode": "",
-                "unitPriceIncVAT": 4147,
+                "unitPriceIncVAT": 6876,
                 "totalAmountIncVAT": 0,
                 "vats": [
                     {
@@ -99,177 +497,300 @@ content-type: application/json
                 "discounts": []
             },
             {
-                "EANCode": "7482913771362",
-                "productId": "15901795",
-                "unitPriceIncVATDecimal": "59.75",
-                "totalAmountExcVAT": 5138,
-                "quantity": "5",
-                "name": "Practical Fresh Fish",
-                "freeText": "Ad ipsum ipsam adipisci qui nemo. In dolorum ex culpa dolores fuga iusto iure necessitatibus. Architecto reprehenderit rem repellendus unde sed. Quasi natus similique. Adipisci id ea asperiores et est.",
-                "customAttributes": [
-                    {
-                        "schemas": "open-source"
-                    },
-                    {
-                        "paradigms": "mission-critical"
-                    },
-                    {
-                        "users": "innovative"
-                    }
-                ],
-                "quantityCode": "",
-                "unitPriceIncVAT": 1195,
-                "totalAmountIncVAT": 5975,
-                "vats": [
-                    {
-                        "VATRate": "14",
-                        "VATAmount": 836,
-                        "totalAmountExcVAT": 5135,
-                        "totalAmountIncVAT": 5975
-                    }
-                ],
-                "discounts": []
-            },
-            {
-                "EANCode": "4570229853954",
-                "productId": "71646933",
-                "unitPriceIncVATDecimal": "166.4",
-                "totalAmountExcVAT": 14310,
+                "EANCode": "3933657544183",
+                "productId": "78082325",
+                "unitPriceIncVATDecimal": "28.6",
+                "totalAmountExcVAT": 2459,
                 "quantity": "2",
-                "name": "Fantastic Frozen Computer",
-                "freeText": "Qui sint molestiae explicabo autem architecto dolor deserunt corporis corporis. Ad recusandae expedita. Voluptatem qui id perspiciatis saepe corrupti. Natus et est dicta repellat at optio.",
+                "name": "Sleek Cotton Chips",
+                "freeText": "Consectetur distinctio qui corporis autem eveniet tempore dolor. Expedita et nesciunt blanditiis libero fugit enim autem ut. Omnis nisi omnis non recusandae aut consequatur. Dolore similique maxime. Qui ipsum nihil repudiandae impedit nihil amet.",
                 "customAttributes": [
                     {
-                        "eyeballs": "magnetic"
+                        "ROI": "web-enabled"
                     },
                     {
-                        "web-readiness": "visionary"
+                        "solutions": "24/7"
                     },
                     {
-                        "vortals": "B2B"
-                    },
-                    {
-                        "bandwidth": "cutting-edge"
+                        "experiences": "viral"
                     }
                 ],
                 "quantityCode": "",
-                "unitPriceIncVAT": 8320,
-                "totalAmountIncVAT": 16640,
+                "unitPriceIncVAT": 1430,
+                "totalAmountIncVAT": 2860,
                 "vats": [
                     {
                         "VATRate": "14",
-                        "VATAmount": 2329,
-                        "totalAmountExcVAT": 14310,
-                        "totalAmountIncVAT": 16640
+                        "VATAmount": 400,
+                        "totalAmountExcVAT": 2458,
+                        "totalAmountIncVAT": 2860
                     }
                 ],
                 "discounts": []
             },
             {
-                "EANCode": "6841336198733",
-                "productId": "69751798",
-                "unitPriceIncVATDecimal": "573.8",
-                "totalAmountExcVAT": 49346,
+                "EANCode": "2822425217947",
+                "productId": "44644901",
+                "unitPriceIncVATDecimal": "190.4",
+                "totalAmountExcVAT": 16374,
                 "quantity": "10",
-                "name": "Small Metal Pizza",
-                "freeText": "Earum in non dicta. Recusandae dolorem blanditiis blanditiis quia ea. Consectetur voluptatem sed eos ipsa ipsam pariatur ipsam consequatur ipsum. Molestiae sint corrupti cupiditate voluptas qui ipsam cum delectus iure. Inventore cupiditate illo aliquid ea enim. Perferendis quo ratione ipsum omnis et voluptas est.",
+                "name": "Rustic Rubber Ball",
+                "freeText": "Ea laboriosam quasi ut.",
                 "customAttributes": [],
                 "quantityCode": "",
-                "unitPriceIncVAT": 5738,
-                "totalAmountIncVAT": 57380,
+                "unitPriceIncVAT": 1904,
+                "totalAmountIncVAT": 19040,
                 "vats": [
                     {
                         "VATRate": "14",
-                        "VATAmount": 8033,
-                        "totalAmountExcVAT": 49340,
-                        "totalAmountIncVAT": 57380
+                        "VATAmount": 2665,
+                        "totalAmountExcVAT": 16370,
+                        "totalAmountIncVAT": 19040
                     }
                 ],
                 "discounts": []
             },
             {
-                "EANCode": "2426296752992",
-                "productId": "11905676",
-                "unitPriceIncVATDecimal": "71.55",
-                "totalAmountExcVAT": 6153,
+                "EANCode": "1587356676275",
+                "productId": "8925004",
+                "unitPriceIncVATDecimal": "595.9",
+                "totalAmountExcVAT": 51247,
+                "quantity": "10",
+                "name": "Practical Concrete Bacon",
+                "freeText": "Qui officia ut cumque aut sequi similique quia similique. Vel eum sint aut natus enim repudiandae. Voluptatem cumque nihil officiis iste.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 5959,
+                "totalAmountIncVAT": 59590,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 8342,
+                        "totalAmountExcVAT": 51240,
+                        "totalAmountIncVAT": 59590
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "7342746478111",
+                "productId": "65656790",
+                "unitPriceIncVATDecimal": "129.92",
+                "totalAmountExcVAT": 11173,
+                "quantity": "4",
+                "name": "Small Frozen Table",
+                "freeText": "Quaerat dolor et molestiae aut doloremque sunt sint dignissimos. Ipsa voluptates eos iusto ipsa quae libero similique. Exercitationem eum quis ut aperiam dolores ab eveniet. Voluptatem quas magnam facere nihil enim molestiae dignissimos est.",
+                "customAttributes": [
+                    {
+                        "applications": "transparent"
+                    },
+                    {
+                        "platforms": "best-of-breed"
+                    },
+                    {
+                        "models": "open-source"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 3248,
+                "totalAmountIncVAT": 12992,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1818,
+                        "totalAmountExcVAT": 11172,
+                        "totalAmountIncVAT": 12992
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4777032916005",
+                "productId": "39583834",
+                "unitPriceIncVATDecimal": "289.44",
+                "totalAmountExcVAT": 24891,
                 "quantity": "3",
-                "name": "Fantastic Frozen Soap",
-                "freeText": "Beatae laborum dignissimos suscipit possimus voluptatem rem unde ut provident. Rem consequatur itaque voluptate eos perferendis praesentium architecto. Deleniti voluptate voluptate rem. Et dignissimos nobis. Molestiae quam in vero sunt est. Accusantium nulla excepturi.",
+                "name": "Handmade Soft Car",
+                "freeText": "Sunt dolor perspiciatis enim vero. Consequuntur modi sit optio. Sit dignissimos omnis nemo et accusantium aut. Quo ut voluptas.",
                 "customAttributes": [
                     {
-                        "paradigms": "strategic"
-                    },
-                    {
-                        "experiences": "wireless"
+                        "communities": "leading-edge"
                     }
                 ],
                 "quantityCode": "",
-                "unitPriceIncVAT": 2385,
-                "totalAmountIncVAT": 7155,
+                "unitPriceIncVAT": 9648,
+                "totalAmountIncVAT": 28944,
                 "vats": [
                     {
                         "VATRate": "14",
-                        "VATAmount": 1001,
-                        "totalAmountExcVAT": 6153,
-                        "totalAmountIncVAT": 7155
+                        "VATAmount": 4052,
+                        "totalAmountExcVAT": 24891,
+                        "totalAmountIncVAT": 28944
                     }
                 ],
                 "discounts": []
             },
             {
-                "EANCode": "4519710780931",
-                "productId": "97226506",
-                "unitPriceIncVATDecimal": "597.03",
-                "totalAmountExcVAT": 51344,
-                "quantity": "7",
-                "name": "Rustic Frozen Bike",
-                "freeText": "Quae voluptates dolor veniam quo exercitationem recusandae repudiandae harum neque. Accusamus nihil ipsam iure ut magni ut tenetur rerum. Rerum architecto porro in labore nulla. Adipisci debitis et omnis ut.",
-                "customAttributes": [
-                    {
-                        "convergence": "value-added"
-                    },
-                    {
-                        "portals": "plug-and-play"
-                    },
-                    {
-                        "communities": "mission-critical"
-                    }
-                ],
+                "EANCode": "1866994739109",
+                "productId": "79250182",
+                "unitPriceIncVATDecimal": "114.87",
+                "totalAmountExcVAT": 9878,
+                "quantity": "3",
+                "name": "Small Metal Fish",
+                "freeText": "Fugit iure commodi saepe et. Occaecati quam velit cum corrupti. Error repellendus distinctio modi enim aspernatur libero velit error ratione. Ratione et aut perspiciatis voluptas nisi doloremque rerum.",
+                "customAttributes": [],
                 "quantityCode": "",
-                "unitPriceIncVAT": 8529,
-                "totalAmountIncVAT": 59703,
+                "unitPriceIncVAT": 3829,
+                "totalAmountIncVAT": 11487,
                 "vats": [
                     {
                         "VATRate": "14",
-                        "VATAmount": 8358,
-                        "totalAmountExcVAT": 51338,
-                        "totalAmountIncVAT": 59703
+                        "VATAmount": 1608,
+                        "totalAmountExcVAT": 9876,
+                        "totalAmountIncVAT": 11487
                     }
                 ],
                 "discounts": []
             },
             {
-                "EANCode": "8715485853101",
-                "productId": "71950097",
-                "unitPriceIncVATDecimal": "701.55",
-                "totalAmountExcVAT": 60333,
-                "quantity": "9",
-                "name": "Fantastic Metal Computer",
-                "freeText": "In et voluptatem aspernatur in fugit ex excepturi. Reprehenderit eligendi repudiandae et vel.",
+                "EANCode": "5857982037922",
+                "productId": "73799540",
+                "unitPriceIncVATDecimal": "0",
+                "totalAmountExcVAT": 0,
+                "quantity": "0",
+                "name": "Refined Concrete Table",
+                "freeText": "Odit numquam aut quaerat aut officiis et nisi aperiam. Adipisci porro dolores sit quia iste esse natus eos. Pariatur veniam labore cumque.",
                 "customAttributes": [
                     {
-                        "deliverables": "next-generation"
+                        "functionalities": "compelling"
+                    },
+                    {
+                        "bandwidth": "enterprise"
                     }
                 ],
                 "quantityCode": "",
-                "unitPriceIncVAT": 7795,
-                "totalAmountIncVAT": 70155,
+                "unitPriceIncVAT": 7011,
+                "totalAmountIncVAT": 0,
                 "vats": [
                     {
                         "VATRate": "14",
-                        "VATAmount": 9821,
-                        "totalAmountExcVAT": 60327,
-                        "totalAmountIncVAT": 70155
+                        "VATAmount": 0,
+                        "totalAmountExcVAT": 0,
+                        "totalAmountIncVAT": 0
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "7880189120821",
+                "productId": "50854473",
+                "unitPriceIncVATDecimal": "261.9",
+                "totalAmountExcVAT": 22523,
+                "quantity": "5",
+                "name": "Intelligent Cotton Ball",
+                "freeText": "Omnis consequatur ut iure aut sit nam. Nobis enim ut maxime. Error vero ab dolor iste nihil magnam.",
+                "customAttributes": [
+                    {
+                        "blockchains": "holistic"
+                    },
+                    {
+                        "applications": "dot-com"
+                    },
+                    {
+                        "users": "rich"
+                    },
+                    {
+                        "niches": "synergistic"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 5238,
+                "totalAmountIncVAT": 26190,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 3666,
+                        "totalAmountExcVAT": 22520,
+                        "totalAmountIncVAT": 26190
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4197882943114",
+                "productId": "61754493",
+                "unitPriceIncVATDecimal": "248.64",
+                "totalAmountExcVAT": 21383,
+                "quantity": "8",
+                "name": "Rustic Wooden Hat",
+                "freeText": "Placeat nesciunt aut et molestiae laboriosam et ut at. Aut blanditiis dolores quae. Sit tempora inventore dolorem consequuntur a. Est et debitis minus quam nulla.",
+                "customAttributes": [
+                    {
+                        "blockchains": "virtual"
+                    },
+                    {
+                        "portals": "killer"
+                    },
+                    {
+                        "functionalities": "compelling"
+                    },
+                    {
+                        "solutions": "frictionless"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 3108,
+                "totalAmountIncVAT": 24864,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 3480,
+                        "totalAmountExcVAT": 21376,
+                        "totalAmountIncVAT": 24864
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "5247332583503",
+                "productId": "9954583",
+                "unitPriceIncVATDecimal": "99.78",
+                "totalAmountExcVAT": 8581,
+                "quantity": "1",
+                "name": "Awesome Plastic Salad",
+                "freeText": "Natus sequi ut inventore dignissimos culpa architecto. Molestiae inventore adipisci voluptatem iure omnis blanditiis laudantium vitae itaque. Corrupti impedit impedit dolorem perferendis dolores fuga eius. Dolores ut fuga sit quod blanditiis sit eum.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 9978,
+                "totalAmountIncVAT": 9978,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1396,
+                        "totalAmountExcVAT": 8581,
+                        "totalAmountIncVAT": 9978
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "9602748106799",
+                "productId": "13339622",
+                "unitPriceIncVATDecimal": "2.66",
+                "totalAmountExcVAT": 228,
+                "quantity": "2",
+                "name": "Practical Wooden Fish",
+                "freeText": "Consequuntur dolores similique doloribus eum reiciendis. Dicta nostrum corrupti provident quisquam quisquam animi. Quas quam aut sit dolor. Ut cum expedita qui consequatur dolorem et quia voluptatem voluptatum. Veritatis adipisci necessitatibus.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 133,
+                "totalAmountIncVAT": 266,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 37,
+                        "totalAmountExcVAT": 228,
+                        "totalAmountIncVAT": 266
                     }
                 ],
                 "discounts": []
@@ -278,14 +799,1230 @@ content-type: application/json
         "vats": [
             {
                 "VATRate": "14",
-                "totalVATAmount": 30378,
-                "totalAmountExcVAT": 186603,
-                "totalAmountIncVAT": 217008
+                "totalVATAmount": 27464,
+                "totalAmountExcVAT": 168712,
+                "totalAmountIncVAT": 196211
             }
         ],
-        "receiptTimeStamp": "2021-04-01T20:58:55.433Z",
-        "totalPriceExcVAT": 186603,
-        "totalPriceIncVAT": 217008,
+        "receiptTimeStamp": "2021-04-04T04:19:02.376Z",
+        "totalPriceExcVAT": 168712,
+        "totalPriceIncVAT": 196211,
+        "totalVATAmount": 0
+    },
+    {
+        "receiptNumber": "11 / 550)}",
+        "merchant": {
+            "name": "Ortiz LLC",
+            "companyID": "123456-8",
+            "branch": {
+                "name": "White, Klocko and Vandervort",
+                "subName": "systems",
+                "email": "Mabelle53@yahoo.com",
+                "phone": "1-712-268-9883 x040",
+                "address": {
+                    "streetAddress": "333 Hiram Gardens",
+                    "city": "Hayward",
+                    "zipCode": "45656-4685",
+                    "country": "Chad"
+                }
+            }
+        },
+        "freeText": "Assumenda qui soluta magnam hic reprehenderit. Eligendi amet tempora quia qui et quo. Architecto sunt voluptatem minima inventore nam tempora voluptates.",
+        "payments": [
+            {
+                "type": "CARD",
+                "amount": 158519,
+                "attributes": {
+                    "cardType": "PaymentCard",
+                    "maskedPAN": "411111******1111",
+                    "timeStamp": "2021-04-02T04:00:51.568Z",
+                    "terminalId": "6558407",
+                    "unixTimeStamp": 1618917446,
+                    "referenceNumber": "9746149073163",
+                    "authorizationCode": "0000000000000000",
+                    "transactionId": "7668179863"
+                },
+                "customAttributes": [
+                    {
+                        "infomediaries": "revolutionary"
+                    },
+                    {
+                        "channels": "back-end"
+                    },
+                    {
+                        "schemas": "vertical"
+                    },
+                    {
+                        "applications": "24/365"
+                    }
+                ]
+            }
+        ],
+        "customAttributes": [],
+        "attachments": [],
+        "currencyISOCode": "EUR",
+        "receiptUnixTimeStamp": 1618917446,
+        "products": [
+            {
+                "EANCode": "5716926913728",
+                "productId": "99509785",
+                "unitPriceIncVATDecimal": "648.06",
+                "totalAmountExcVAT": 55733,
+                "quantity": "7",
+                "name": "Practical Concrete Cheese",
+                "freeText": "Aut illum velit. At laborum et voluptatibus ea eum et ea.",
+                "customAttributes": [
+                    {
+                        "mindshare": "vertical"
+                    },
+                    {
+                        "web services": "turn-key"
+                    },
+                    {
+                        "blockchains": "global"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 9258,
+                "totalAmountIncVAT": 64806,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 9072,
+                        "totalAmountExcVAT": 55727,
+                        "totalAmountIncVAT": 64806
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "5110786016840",
+                "productId": "83277339",
+                "unitPriceIncVATDecimal": "136.7",
+                "totalAmountExcVAT": 11756,
+                "quantity": "10",
+                "name": "Licensed Metal Pizza",
+                "freeText": "Ex nesciunt repudiandae quos sed ut. Molestias optio enim qui consequuntur enim dolorem provident tempora molestias.",
+                "customAttributes": [
+                    {
+                        "paradigms": "efficient"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 1367,
+                "totalAmountIncVAT": 13670,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1913,
+                        "totalAmountExcVAT": 11750,
+                        "totalAmountIncVAT": 13670
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4720900200179",
+                "productId": "84359412",
+                "unitPriceIncVATDecimal": "680.67",
+                "totalAmountExcVAT": 58537,
+                "quantity": "9",
+                "name": "Licensed Granite Computer",
+                "freeText": "Illo dolorem sit velit modi. Ipsam laboriosam id numquam est adipisci eos culpa optio. Earum quos impedit at impedit deleniti voluptatem voluptas excepturi nisi. Qui non similique tenetur minima facere nisi magnam corrupti. Corrupti aut sed numquam esse recusandae maiores. Asperiores sit quasi et nihil quia eius error. Voluptas sit beatae.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 7563,
+                "totalAmountIncVAT": 68067,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 9529,
+                        "totalAmountExcVAT": 58536,
+                        "totalAmountIncVAT": 68067
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "2500667861978",
+                "productId": "65041149",
+                "unitPriceIncVATDecimal": "119.76",
+                "totalAmountExcVAT": 10299,
+                "quantity": "6",
+                "name": "Ergonomic Plastic Chips",
+                "freeText": "Voluptatem voluptas quasi.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 1996,
+                "totalAmountIncVAT": 11976,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1676,
+                        "totalAmountExcVAT": 10296,
+                        "totalAmountIncVAT": 11976
+                    }
+                ],
+                "discounts": []
+            }
+        ],
+        "vats": [
+            {
+                "VATRate": "14",
+                "totalVATAmount": 22190,
+                "totalAmountExcVAT": 136309,
+                "totalAmountIncVAT": 158519
+            }
+        ],
+        "receiptTimeStamp": "2021-04-02T04:00:51.568Z",
+        "totalPriceExcVAT": 136309,
+        "totalPriceIncVAT": 158519,
+        "totalVATAmount": 0
+    },
+    {
+        "receiptNumber": "9 / 1035)}",
+        "merchant": {
+            "name": "Kuvalis and Sons",
+            "companyID": "123456-8",
+            "branch": {
+                "name": "Wilderman, Olson and Kreiger",
+                "subName": "action-items",
+                "email": "Eliza.Christiansen@hotmail.com",
+                "phone": "858.688.6699 x993",
+                "address": {
+                    "streetAddress": "623 Emard Throughway",
+                    "city": "Paucekview",
+                    "zipCode": "25649",
+                    "country": "Mongolia"
+                }
+            }
+        },
+        "freeText": "Repellendus quia explicabo iure dicta vero iusto ea. Laboriosam ullam non voluptates. Repellendus consequatur enim sed reprehenderit consequatur qui. Impedit cum soluta sed debitis laboriosam quia asperiores voluptas ipsam. Mollitia recusandae debitis qui minima enim expedita.",
+        "payments": [
+            {
+                "type": "CARD",
+                "amount": 309745,
+                "attributes": {
+                    "cardType": "PaymentCard",
+                    "maskedPAN": "411111******1111",
+                    "timeStamp": "2021-04-14T00:46:30.714Z",
+                    "terminalId": "450023",
+                    "unixTimeStamp": 1618917446,
+                    "referenceNumber": "1569970767663",
+                    "authorizationCode": "0000000000000000",
+                    "transactionId": "2950178267"
+                },
+                "customAttributes": [
+                    {
+                        "infomediaries": "world-class"
+                    },
+                    {
+                        "ROI": "end-to-end"
+                    },
+                    {
+                        "convergence": "web-enabled"
+                    },
+                    {
+                        "interfaces": "proactive"
+                    }
+                ]
+            }
+        ],
+        "customAttributes": [
+            {
+                "architectures": "vertical"
+            }
+        ],
+        "attachments": [],
+        "currencyISOCode": "EUR",
+        "receiptUnixTimeStamp": 1618917446,
+        "products": [
+            {
+                "EANCode": "6446327359526",
+                "productId": "84579656",
+                "unitPriceIncVATDecimal": "30.65",
+                "totalAmountExcVAT": 2635,
+                "quantity": "5",
+                "name": "Handmade Rubber Shoes",
+                "freeText": "Consequatur mollitia non at ullam.",
+                "customAttributes": [
+                    {
+                        "users": "24/7"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 613,
+                "totalAmountIncVAT": 3065,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 429,
+                        "totalAmountExcVAT": 2635,
+                        "totalAmountIncVAT": 3065
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "5421189509493",
+                "productId": "47378114",
+                "unitPriceIncVATDecimal": "209.43",
+                "totalAmountExcVAT": 18010,
+                "quantity": "3",
+                "name": "Ergonomic Fresh Bike",
+                "freeText": "Occaecati repellat assumenda dolor dolore incidunt est facilis repellat vel. Quis possimus neque omnis suscipit quo non expedita.",
+                "customAttributes": [
+                    {
+                        "vortals": "dynamic"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 6981,
+                "totalAmountIncVAT": 20943,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 2932,
+                        "totalAmountExcVAT": 18009,
+                        "totalAmountIncVAT": 20943
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "7238614006447",
+                "productId": "62448323",
+                "unitPriceIncVATDecimal": "0",
+                "totalAmountExcVAT": 0,
+                "quantity": "0",
+                "name": "Generic Soft Pizza",
+                "freeText": "Qui sed nesciunt aliquam esse debitis. Nam qui quia aut incidunt qui odio suscipit autem. Consequuntur consequatur commodi consequatur velit mollitia.",
+                "customAttributes": [
+                    {
+                        "deliverables": "efficient"
+                    },
+                    {
+                        "synergies": "end-to-end"
+                    },
+                    {
+                        "deliverables": "strategic"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 675,
+                "totalAmountIncVAT": 0,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 0,
+                        "totalAmountExcVAT": 0,
+                        "totalAmountIncVAT": 0
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "3187172807873",
+                "productId": "88853033",
+                "unitPriceIncVATDecimal": "337.82",
+                "totalAmountExcVAT": 29052,
+                "quantity": "7",
+                "name": "Refined Metal Pants",
+                "freeText": "Sed quidem iusto quis quibusdam repudiandae. Aliquam molestias vero amet sunt ducimus velit et earum molestiae. Delectus non deserunt quam enim sunt minima. Quisquam consequatur aut sint recusandae dolore et qui pariatur vero. Nemo modi eos quaerat et voluptas nulla error reiciendis. Totam eos vitae aut aut dignissimos aliquid et quasi. Fuga cupiditate perspiciatis nulla veritatis vel commodi.",
+                "customAttributes": [
+                    {
+                        "methodologies": "sexy"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 4826,
+                "totalAmountIncVAT": 33782,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 4729,
+                        "totalAmountExcVAT": 29050,
+                        "totalAmountIncVAT": 33782
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "7377305101629",
+                "productId": "56985901",
+                "unitPriceIncVATDecimal": "139.44",
+                "totalAmountExcVAT": 11991,
+                "quantity": "4",
+                "name": "Handcrafted Metal Tuna",
+                "freeText": "Quisquam nemo maiores sint sit itaque et ad aliquam consequuntur. Asperiores totam molestiae iste in cupiditate deserunt quasi voluptatem. Rerum et tenetur eaque labore sit quia. Recusandae est natus. Id in sed. Doloribus veniam aut qui repellat.",
+                "customAttributes": [
+                    {
+                        "e-tailers": "sticky"
+                    },
+                    {
+                        "deliverables": "impactful"
+                    },
+                    {
+                        "markets": "enterprise"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 3486,
+                "totalAmountIncVAT": 13944,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1952,
+                        "totalAmountExcVAT": 11988,
+                        "totalAmountIncVAT": 13944
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "2827458092397",
+                "productId": "36639504",
+                "unitPriceIncVATDecimal": "0",
+                "totalAmountExcVAT": 0,
+                "quantity": "0",
+                "name": "Awesome Fresh Pants",
+                "freeText": "Adipisci ut hic at. Atque eligendi quae. Sunt vel placeat et dolores sit aut. Ad aut fuga consectetur adipisci dolor nobis soluta. Est repudiandae similique perspiciatis delectus sed voluptatem voluptas. Ut ab doloribus eveniet suscipit consequatur commodi.",
+                "customAttributes": [
+                    {
+                        "technologies": "viral"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 8854,
+                "totalAmountIncVAT": 0,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 0,
+                        "totalAmountExcVAT": 0,
+                        "totalAmountIncVAT": 0
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4828734938174",
+                "productId": "74990798",
+                "unitPriceIncVATDecimal": "129.03",
+                "totalAmountExcVAT": 11096,
+                "quantity": "3",
+                "name": "Awesome Cotton Soap",
+                "freeText": "Totam commodi velit explicabo vel minus. Molestiae neque rem magnam assumenda dolorem ea quia. Qui magni ipsum provident. Molestiae ut aperiam aut dolorem officia atque hic aliquam deserunt.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 4301,
+                "totalAmountIncVAT": 12903,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1806,
+                        "totalAmountExcVAT": 11094,
+                        "totalAmountIncVAT": 12903
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "8914819247012",
+                "productId": "19863335",
+                "unitPriceIncVATDecimal": "543.6",
+                "totalAmountExcVAT": 46749,
+                "quantity": "8",
+                "name": "Handmade Plastic Computer",
+                "freeText": "Ducimus rerum quas libero molestiae atque veniam iste blanditiis itaque. Corporis laudantium voluptates incidunt. Recusandae inventore similique inventore asperiores sunt iure.",
+                "customAttributes": [
+                    {
+                        "applications": "open-source"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 6795,
+                "totalAmountIncVAT": 54360,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 7610,
+                        "totalAmountExcVAT": 46744,
+                        "totalAmountIncVAT": 54360
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4564874724541",
+                "productId": "39238092",
+                "unitPriceIncVATDecimal": "0",
+                "totalAmountExcVAT": 0,
+                "quantity": "0",
+                "name": "Gorgeous Frozen Chair",
+                "freeText": "Nisi vitae qui aspernatur ut necessitatibus doloribus laboriosam. Ut facilis magnam illum ipsa sapiente accusantium eius temporibus. Corrupti quae maxime sint optio occaecati perferendis nihil.",
+                "customAttributes": [
+                    {
+                        "infomediaries": "out-of-the-box"
+                    },
+                    {
+                        "infrastructures": "front-end"
+                    },
+                    {
+                        "partnerships": "extensible"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 2645,
+                "totalAmountIncVAT": 0,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 0,
+                        "totalAmountExcVAT": 0,
+                        "totalAmountIncVAT": 0
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "5723458326868",
+                "productId": "19539064",
+                "unitPriceIncVATDecimal": "12.54",
+                "totalAmountExcVAT": 1078,
+                "quantity": "2",
+                "name": "Practical Granite Cheese",
+                "freeText": "Et ut praesentium consectetur. Nemo fugiat est quaerat doloribus. Delectus est non molestiae. Minima optio omnis perspiciatis et. Voluptatem commodi nulla modi similique perspiciatis minima error et.",
+                "customAttributes": [
+                    {
+                        "e-markets": "world-class"
+                    },
+                    {
+                        "paradigms": "robust"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 627,
+                "totalAmountIncVAT": 1254,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 175,
+                        "totalAmountExcVAT": 1078,
+                        "totalAmountIncVAT": 1254
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "9712116384376",
+                "productId": "24273156",
+                "unitPriceIncVATDecimal": "298.08",
+                "totalAmountExcVAT": 25634,
+                "quantity": "3",
+                "name": "Sleek Cotton Tuna",
+                "freeText": "Eveniet enim maxime doloremque nostrum tenetur et. Quia placeat distinctio optio. Sequi adipisci doloremque recusandae aspernatur veritatis sequi voluptatem sit sed. Magnam eum asperiores hic.",
+                "customAttributes": [
+                    {
+                        "supply-chains": "robust"
+                    },
+                    {
+                        "methodologies": "open-source"
+                    },
+                    {
+                        "content": "web-enabled"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 9936,
+                "totalAmountIncVAT": 29808,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 4173,
+                        "totalAmountExcVAT": 25632,
+                        "totalAmountIncVAT": 29808
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "2300822848572",
+                "productId": "22789519",
+                "unitPriceIncVATDecimal": "193.45",
+                "totalAmountExcVAT": 16636,
+                "quantity": "5",
+                "name": "Handmade Frozen Shoes",
+                "freeText": "",
+                "customAttributes": [
+                    {
+                        "communities": "e-business"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 3869,
+                "totalAmountIncVAT": 19345,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 2708,
+                        "totalAmountExcVAT": 16635,
+                        "totalAmountIncVAT": 19345
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "9253577432687",
+                "productId": "94981991",
+                "unitPriceIncVATDecimal": "886.23",
+                "totalAmountExcVAT": 76215,
+                "quantity": "9",
+                "name": "Rustic Rubber Tuna",
+                "freeText": "Eaque voluptatem aut occaecati veniam. Voluptatibus consequatur repudiandae. Voluptatibus veniam qui quam laborum ullam. Suscipit modi similique nisi eos molestias et omnis voluptas provident.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 9847,
+                "totalAmountIncVAT": 88623,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 12407,
+                        "totalAmountExcVAT": 76212,
+                        "totalAmountIncVAT": 88623
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4733971572567",
+                "productId": "73846343",
+                "unitPriceIncVATDecimal": "124.76",
+                "totalAmountExcVAT": 10729,
+                "quantity": "2",
+                "name": "Sleek Rubber Tuna",
+                "freeText": "Ut quaerat nulla temporibus omnis quia molestias eos. Aut sunt ut quaerat velit similique aut nemo sunt illo.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 6238,
+                "totalAmountIncVAT": 12476,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1746,
+                        "totalAmountExcVAT": 10728,
+                        "totalAmountIncVAT": 12476
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "8195955739521",
+                "productId": "69121142",
+                "unitPriceIncVATDecimal": "192.42",
+                "totalAmountExcVAT": 16548,
+                "quantity": "2",
+                "name": "Practical Granite Bacon",
+                "freeText": "Itaque minima qui facilis dolor ut minima veritatis magni. Illum velit deserunt dolores rerum qui veniam ad dolores porro. Ullam assumenda id nulla debitis in error. Molestiae numquam et soluta commodi provident et. Quo culpa voluptatibus dicta nemo magni quo. Autem quibusdam quis.",
+                "customAttributes": [
+                    {
+                        "e-markets": "cross-media"
+                    },
+                    {
+                        "eyeballs": "dynamic"
+                    },
+                    {
+                        "architectures": "impactful"
+                    },
+                    {
+                        "relationships": "extensible"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 9621,
+                "totalAmountIncVAT": 19242,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 2693,
+                        "totalAmountExcVAT": 16548,
+                        "totalAmountIncVAT": 19242
+                    }
+                ],
+                "discounts": []
+            }
+        ],
+        "vats": [
+            {
+                "VATRate": "14",
+                "totalVATAmount": 43360,
+                "totalAmountExcVAT": 266353,
+                "totalAmountIncVAT": 309745
+            }
+        ],
+        "receiptTimeStamp": "2021-04-14T00:46:30.714Z",
+        "totalPriceExcVAT": 266353,
+        "totalPriceIncVAT": 309745,
+        "totalVATAmount": 0
+    },
+    {
+        "receiptNumber": "56 / 197)}",
+        "merchant": {
+            "name": "Lehner, Mraz and Von",
+            "companyID": "123456-8",
+            "branch": {
+                "name": "Dietrich, Hilll and Weimann",
+                "subName": "infrastructures",
+                "email": "Willow.Lehner@hotmail.com",
+                "phone": "(906) 454-8163 x89247",
+                "address": {
+                    "streetAddress": "856 Windler Forest",
+                    "city": "Zboncakside",
+                    "zipCode": "56613",
+                    "country": "Macao"
+                }
+            }
+        },
+        "freeText": "Ex eveniet rerum dolorum illum optio neque magni. Corrupti adipisci explicabo omnis. Nemo esse reprehenderit perspiciatis similique illo hic. Laudantium aliquam error ut praesentium dolores assumenda facilis. Corporis et nulla cum alias et non. Minus at iure qui et facere consequatur unde in.",
+        "payments": [
+            {
+                "type": "CARD",
+                "amount": 203449,
+                "attributes": {
+                    "cardType": "PaymentCard",
+                    "maskedPAN": "411111******1111",
+                    "timeStamp": "2021-03-29T08:01:46.854Z",
+                    "terminalId": "8985122",
+                    "unixTimeStamp": 1618917446,
+                    "referenceNumber": "2695147013562",
+                    "authorizationCode": "0000000000000000",
+                    "transactionId": "5126482338"
+                },
+                "customAttributes": []
+            }
+        ],
+        "customAttributes": [
+            {
+                "e-business": "web-enabled"
+            }
+        ],
+        "attachments": [],
+        "currencyISOCode": "EUR",
+        "receiptUnixTimeStamp": 1618917446,
+        "products": [
+            {
+                "EANCode": "7273394636764",
+                "productId": "39589778",
+                "unitPriceIncVATDecimal": "254.96",
+                "totalAmountExcVAT": 21926,
+                "quantity": "8",
+                "name": "Awesome Wooden Computer",
+                "freeText": "Nulla alias ut magni ut dolorem. Itaque vero et nostrum soluta atque facere dolor incidunt et. Molestiae ut sint voluptatem velit. Culpa exercitationem et similique perspiciatis ut incidunt et ab. Molestias ut impedit tempore placeat excepturi.",
+                "customAttributes": [
+                    {
+                        "metrics": "web-enabled"
+                    },
+                    {
+                        "content": "proactive"
+                    },
+                    {
+                        "bandwidth": "cutting-edge"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 3187,
+                "totalAmountIncVAT": 25496,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 3569,
+                        "totalAmountExcVAT": 21920,
+                        "totalAmountIncVAT": 25496
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "6661377821346",
+                "productId": "53510661",
+                "unitPriceIncVATDecimal": "31.48",
+                "totalAmountExcVAT": 2707,
+                "quantity": "1",
+                "name": "Unbranded Cotton Salad",
+                "freeText": "Delectus non ex. Veniam delectus adipisci aliquid eos est exercitationem molestiae provident.",
+                "customAttributes": [],
+                "quantityCode": "",
+                "unitPriceIncVAT": 3148,
+                "totalAmountIncVAT": 3148,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 440,
+                        "totalAmountExcVAT": 2707,
+                        "totalAmountIncVAT": 3148
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "8642334079342",
+                "productId": "45600020",
+                "unitPriceIncVATDecimal": "49.76",
+                "totalAmountExcVAT": 4279,
+                "quantity": "8",
+                "name": "Generic Plastic Car",
+                "freeText": "Perspiciatis voluptas eveniet totam accusamus velit culpa ut culpa dolores. Nesciunt porro animi minus eaque magnam vel. Asperiores possimus esse aut.",
+                "customAttributes": [
+                    {
+                        "initiatives": "killer"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 622,
+                "totalAmountIncVAT": 4976,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 696,
+                        "totalAmountExcVAT": 4272,
+                        "totalAmountIncVAT": 4976
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4299892596567",
+                "productId": "27286442",
+                "unitPriceIncVATDecimal": "337.5",
+                "totalAmountExcVAT": 29025,
+                "quantity": "9",
+                "name": "Practical Fresh Gloves",
+                "freeText": "Facere facilis est sed culpa. Occaecati consequatur debitis eaque. Perferendis voluptatibus asperiores corrupti. Ut optio voluptatem corporis. Voluptatem expedita eum eos eligendi delectus nam. Et quis praesentium omnis dolores perferendis quibusdam dolorum.",
+                "customAttributes": [
+                    {
+                        "e-markets": "intuitive"
+                    },
+                    {
+                        "niches": "cross-media"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 3750,
+                "totalAmountIncVAT": 33750,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 4725,
+                        "totalAmountExcVAT": 29025,
+                        "totalAmountIncVAT": 33750
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "7300000293101",
+                "productId": "84694264",
+                "unitPriceIncVATDecimal": "170.76",
+                "totalAmountExcVAT": 14685,
+                "quantity": "6",
+                "name": "Small Rubber Mouse",
+                "freeText": "Et aut sint labore neque totam omnis aut.",
+                "customAttributes": [
+                    {
+                        "e-services": "visionary"
+                    },
+                    {
+                        "action-items": "sexy"
+                    },
+                    {
+                        "interfaces": "enterprise"
+                    },
+                    {
+                        "partnerships": "synergistic"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 2846,
+                "totalAmountIncVAT": 17076,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 2390,
+                        "totalAmountExcVAT": 14682,
+                        "totalAmountIncVAT": 17076
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "3880368066667",
+                "productId": "87059859",
+                "unitPriceIncVATDecimal": "694.32",
+                "totalAmountExcVAT": 59711,
+                "quantity": "8",
+                "name": "Rustic Cotton Tuna",
+                "freeText": "Aspernatur ullam natus odio minima vero. Illo voluptas ea. Temporibus aut laudantium placeat. Et odit possimus itaque provident omnis qui. Sint rerum dolores consequatur praesentium. Ipsa praesentium animi et. Sit quibusdam modi possimus hic nesciunt fugiat inventore neque.",
+                "customAttributes": [
+                    {
+                        "content": "sticky"
+                    },
+                    {
+                        "eyeballs": "impactful"
+                    },
+                    {
+                        "infrastructures": "turn-key"
+                    },
+                    {
+                        "channels": "innovative"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 8679,
+                "totalAmountIncVAT": 69432,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 9720,
+                        "totalAmountExcVAT": 59704,
+                        "totalAmountIncVAT": 69432
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "9569894654128",
+                "productId": "40427522",
+                "unitPriceIncVATDecimal": "97.47",
+                "totalAmountExcVAT": 8382,
+                "quantity": "3",
+                "name": "Tasty Cotton Bacon",
+                "freeText": "Omnis possimus quis officia non doloribus fugit dolore consequatur.",
+                "customAttributes": [
+                    {
+                        "systems": "transparent"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 3249,
+                "totalAmountIncVAT": 9747,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 1364,
+                        "totalAmountExcVAT": 8382,
+                        "totalAmountIncVAT": 9747
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "2669701079052",
+                "productId": "18204371",
+                "unitPriceIncVATDecimal": "5.84",
+                "totalAmountExcVAT": 502,
+                "quantity": "1",
+                "name": "Tasty Metal Mouse",
+                "freeText": "Aperiam et et voluptatem voluptas ea id optio repellendus.",
+                "customAttributes": [
+                    {
+                        "action-items": "transparent"
+                    },
+                    {
+                        "deliverables": "web-enabled"
+                    },
+                    {
+                        "portals": "web-enabled"
+                    },
+                    {
+                        "experiences": "dot-com"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 584,
+                "totalAmountIncVAT": 584,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 81,
+                        "totalAmountExcVAT": 502,
+                        "totalAmountIncVAT": 584
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4009875955494",
+                "productId": "92555815",
+                "unitPriceIncVATDecimal": "392.4",
+                "totalAmountExcVAT": 33746,
+                "quantity": "6",
+                "name": "Ergonomic Concrete Gloves",
+                "freeText": "Tempore voluptatem doloribus distinctio.",
+                "customAttributes": [
+                    {
+                        "mindshare": "enterprise"
+                    },
+                    {
+                        "users": "virtual"
+                    },
+                    {
+                        "relationships": "mission-critical"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 6540,
+                "totalAmountIncVAT": 39240,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 5493,
+                        "totalAmountExcVAT": 33744,
+                        "totalAmountIncVAT": 39240
+                    }
+                ],
+                "discounts": []
+            }
+        ],
+        "vats": [
+            {
+                "VATRate": "14",
+                "totalVATAmount": 28478,
+                "totalAmountExcVAT": 174938,
+                "totalAmountIncVAT": 203449
+            }
+        ],
+        "receiptTimeStamp": "2021-03-29T08:01:46.854Z",
+        "totalPriceExcVAT": 174938,
+        "totalPriceIncVAT": 203449,
+        "totalVATAmount": 0
+    },
+    {
+        "receiptNumber": "17 / 944)}",
+        "merchant": {
+            "name": "Beatty - Dietrich",
+            "companyID": "123456-8",
+            "branch": {
+                "name": "Keebler Group",
+                "subName": "models",
+                "email": "Maud57@gmail.com",
+                "phone": "255-986-3780",
+                "address": {
+                    "streetAddress": "57540 Dietrich Bridge",
+                    "city": "Lake Flavio",
+                    "zipCode": "24015",
+                    "country": "Azerbaijan"
+                }
+            }
+        },
+        "freeText": "Quia eaque architecto quae rem qui culpa quidem optio nobis. Nulla dolores eum.",
+        "payments": [
+            {
+                "type": "CARD",
+                "amount": 153030,
+                "attributes": {
+                    "cardType": "PaymentCard",
+                    "maskedPAN": "411111******1111",
+                    "timeStamp": "2021-04-02T23:42:01.432Z",
+                    "terminalId": "1116395",
+                    "unixTimeStamp": 1618917446,
+                    "referenceNumber": "3614350325833",
+                    "authorizationCode": "0000000000000000",
+                    "transactionId": "9095660666"
+                },
+                "customAttributes": [
+                    {
+                        "relationships": "compelling"
+                    },
+                    {
+                        "markets": "customized"
+                    },
+                    {
+                        "ROI": "global"
+                    }
+                ]
+            }
+        ],
+        "customAttributes": [
+            {
+                "solutions": "frictionless"
+            },
+            {
+                "infrastructures": "impactful"
+            },
+            {
+                "e-commerce": "seamless"
+            },
+            {
+                "niches": "global"
+            }
+        ],
+        "attachments": [],
+        "currencyISOCode": "EUR",
+        "receiptUnixTimeStamp": 1618917446,
+        "products": [
+            {
+                "EANCode": "2756618300695",
+                "productId": "25957229",
+                "unitPriceIncVATDecimal": "49.49",
+                "totalAmountExcVAT": 4256,
+                "quantity": "7",
+                "name": "Generic Plastic Pants",
+                "freeText": "Quaerat placeat nostrum molestiae et cumque iste eaque.",
+                "customAttributes": [
+                    {
+                        "mindshare": "B2C"
+                    },
+                    {
+                        "vortals": "bricks-and-clicks"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 707,
+                "totalAmountIncVAT": 4949,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 692,
+                        "totalAmountExcVAT": 4256,
+                        "totalAmountIncVAT": 4949
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "4692122683164",
+                "productId": "78344720",
+                "unitPriceIncVATDecimal": "700.74",
+                "totalAmountExcVAT": 60263,
+                "quantity": "9",
+                "name": "Handcrafted Frozen Cheese",
+                "freeText": "Placeat aliquam vero consequatur enim et maxime id quisquam laudantium. Autem exercitationem sunt enim possimus est quibusdam nulla suscipit voluptatem. Distinctio ut ut. Nemo eius minima autem. Eum impedit alias esse.",
+                "customAttributes": [
+                    {
+                        "web-readiness": "visionary"
+                    },
+                    {
+                        "markets": "robust"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 7786,
+                "totalAmountIncVAT": 70074,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 9810,
+                        "totalAmountExcVAT": 60255,
+                        "totalAmountIncVAT": 70074
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "8202057476594",
+                "productId": "29681983",
+                "unitPriceIncVATDecimal": "26.77",
+                "totalAmountExcVAT": 2302,
+                "quantity": "1",
+                "name": "Awesome Metal Computer",
+                "freeText": "Temporibus dolores repellat quia quia porro natus quaerat doloremque. Qui neque voluptatem atque cum.",
+                "customAttributes": [
+                    {
+                        "networks": "world-class"
+                    },
+                    {
+                        "action-items": "bricks-and-clicks"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 2677,
+                "totalAmountIncVAT": 2677,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 374,
+                        "totalAmountExcVAT": 2302,
+                        "totalAmountIncVAT": 2677
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "3285513053738",
+                "productId": "53996251",
+                "unitPriceIncVATDecimal": "279.9",
+                "totalAmountExcVAT": 24071,
+                "quantity": "5",
+                "name": "Ergonomic Frozen Chips",
+                "freeText": "Aut voluptas tempore et iusto hic soluta unde enim accusamus. Voluptatem culpa libero placeat quia veniam unde. Enim dolorem est est cupiditate nisi voluptatibus perferendis. Cum non nihil odit et eligendi.",
+                "customAttributes": [
+                    {
+                        "content": "extensible"
+                    },
+                    {
+                        "platforms": "enterprise"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 5598,
+                "totalAmountIncVAT": 27990,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 3918,
+                        "totalAmountExcVAT": 24070,
+                        "totalAmountIncVAT": 27990
+                    }
+                ],
+                "discounts": []
+            },
+            {
+                "EANCode": "1500046840147",
+                "productId": "7548450",
+                "unitPriceIncVATDecimal": "473.4",
+                "totalAmountExcVAT": 40712,
+                "quantity": "5",
+                "name": "Sleek Wooden Car",
+                "freeText": "Officia asperiores est aliquid non nostrum. Ex accusamus pariatur dignissimos corporis totam consequatur. Et sit libero aut et quisquam sed. Voluptate vitae blanditiis eos maxime aut commodi est aspernatur qui.",
+                "customAttributes": [
+                    {
+                        "e-services": "24/7"
+                    },
+                    {
+                        "partnerships": "transparent"
+                    },
+                    {
+                        "web-readiness": "scalable"
+                    },
+                    {
+                        "methodologies": "strategic"
+                    }
+                ],
+                "quantityCode": "",
+                "unitPriceIncVAT": 9468,
+                "totalAmountIncVAT": 47340,
+                "vats": [
+                    {
+                        "VATRate": "14",
+                        "VATAmount": 6627,
+                        "totalAmountExcVAT": 40710,
+                        "totalAmountIncVAT": 47340
+                    }
+                ],
+                "discounts": []
+            }
+        ],
+        "vats": [
+            {
+                "VATRate": "14",
+                "totalVATAmount": 21421,
+                "totalAmountExcVAT": 131593,
+                "totalAmountIncVAT": 153030
+            }
+        ],
+        "receiptTimeStamp": "2021-04-02T23:42:01.432Z",
+        "totalPriceExcVAT": 131593,
+        "totalPriceIncVAT": 153030,
         "totalVATAmount": 0
     }
 ]
